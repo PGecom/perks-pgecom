@@ -68,5 +68,19 @@
         "benefit_description": "Best Online Retail ",
         "image_url": "images/amazon.png",
         "affiliate_url": "https://www.amazon.com/ref=nav_logo?tag=accimeester0c-20&linkId=0a65d197e5400ca07c61431f21b03f41"
+    },
+    {
+        "platform_name": "Streamyard",
+        "platform_description": "Engage your Facebook, or YouTube, Live audience with interviews and shows; all the tools you need for professional shows right in your browser.",
+        "benefit_description": "Highly Recommended",
+        "image_url": "images/streamyard-logo.png",
+        "affiliate_url": "https://streamyard.com?pal=5965239324508160"
+    },
+    {
+        "platform_name": "Envato Elements",
+        "platform_description": "Unlimited downloads of stock videos, royalty-free music, photos, graphics, graphic templates & more. The only creative subscription you need.",
+        "benefit_description": "Highly Recommended",
+        "image_url": "images/envato-element.png",
+        "affiliate_url": "https://elements.envato.com/"
     }
 ]

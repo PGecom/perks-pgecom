@@ -72,14 +72,14 @@
       const container = document.querySelector("body");
 
       window.onload = function () {
-        fetch("./courses/list_courses.json")
+        fetch("./perks/list_perks.json")
           .then((res) => res.json())
           .then((data) => {
             // execute the compiled template and print the output to the console
             // execute the compiled template and print the output to the console
             const context = {
               isPageHome: true,
-              list_courses: data
+              list_perks: data
             };
             const header = Handlebars.templates.home(context);
             container.innerHTML = header;

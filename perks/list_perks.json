@@ -1,0 +1,51 @@
+[
+    {
+        "platform_name": "Sell the trends",
+        "platform_description": "We show you thousands of hot & trending products to add to your store and ship directly to your customers - all in only a few clicks!",
+        "benefit_description": "10% OFF",
+        "image_url": "images/sellthetrends.png",
+        "affiliate_url": "https://bit.ly/pg-sell-the-trends"
+    },
+    {
+        "platform_name": "CJ Dropshipping",
+        "platform_description": "One stop dropshipping service. From product sourcing to rapid shipping we have it all. From product listing to product sourcing, our app can do it all within a few clicks",
+        "benefit_description": "Reliable Suppliers",
+        "image_url": "images/cj-dropshipping.png",
+        "affiliate_url": "https://bit.ly/pg-cj-dropshipping"
+    },
+    {
+        "platform_name": "Canva",
+        "platform_description": "Create beautiful designs with your team. Use Canva's drag-and-drop feature and layouts to design, share and print business cards, logos, and presentations",
+        "benefit_description": "Unlock your imagination",
+        "image_url": "images/canva.png",
+        "affiliate_url": "https://www.canva.com/"
+    },
+    {
+        "platform_name": "Vitals",
+        "platform_description": "VITALS | 40+ apps in one. by VITALS. Reviews, Currency Conversion, Upsells, Replays & many more",
+        "benefit_description": "45 days free trial",
+        "image_url": "images/vitals.png",
+        "affiliate_url": "https://bit.ly/pg-vitals-app"
+    },
+    {
+        "platform_name": "Click Funnels",
+        "platform_description": "ClickFunnels Gives You EVERYTHING You Need To Market, Sell, and Deliver Your Products and Services Online! Without having to hire or rely on a tech team!",
+        "benefit_description": "Build amazing funnels",
+        "image_url": "images/clickfunnels.png",
+        "affiliate_url": "https://www.clickfunnels.com/"
+    },
+    {
+        "platform_name": "Droppoint",
+        "platform_description": "We use hundreds of extensions installed by our users to extract and update thousands of ads on a daily basis",
+        "benefit_description": "Search trending products",
+        "image_url": "images/dropoint.png",
+        "affiliate_url": "https://bit.ly/pg-droppoint"
+    },
+    {
+        "platform_name": "Amazon",
+        "platform_description": "Free delivery on millions of items with Prime. Low prices across earth's biggest selection of books, music, DVDs, electronics, computers, software, apparel, etc",
+        "benefit_description": "Best Online Retail ",
+        "image_url": "images/amazon.png",
+        "affiliate_url": "https://www.amazon.com/ref=nav_logo?tag=accimeester0c-20&linkId=0a65d197e5400ca07c61431f21b03f41"
+    }
+]

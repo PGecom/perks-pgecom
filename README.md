@@ -1,2 +1,2 @@
-# PG-ecom
-Landing Page of PG-ecom
+# PG-ecom Perks
+Recommended resources by PG-ecom

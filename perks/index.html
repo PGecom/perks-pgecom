@@ -16,7 +16,7 @@
       name="description"
     />
     <meta
-      content="pg-ecom, haiti, e-learning, ecommerce, shopify, woocommerce, facebook & google ads, traning, courses, amazon"
+      content="pg-ecom, haiti, e-learning, ecommerce, shopify, woocommerce, facebook & google ads, traning, perks, amazon"
       name="keywords"
     />
     <!-- <meta content="images/banner.jpg" property="og:image"> -->
@@ -76,16 +76,16 @@
       const container = document.querySelector("body");
 
       window.onload = function () {
-        fetch("./list_courses.json")
+        fetch("./list_perks.json")
           .then((res) => res.json())
           .then((data) => {
             // execute the compiled template and print the output to the console
             console.log("Data: ", data);
             const context = {
-              isPageCourses: true,
-              list_courses: data,
+              isPageperks: true,
+              list_perks: data,
             };
-            const header = Handlebars.templates.courses(context);
+            const header = Handlebars.templates.perks(context);
             container.innerHTML = header;
           })
           .catch((error) => console.log("Error occurs: ", error));

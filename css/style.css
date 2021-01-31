@@ -734,20 +734,20 @@ header {
 }
 
 /* ==========================================================================
-   courses
+   perks
    ========================================================================== */
-.courses {
+.perks {
   position: relative;
   padding: 0 0 90px;
 }
 
 @media (max-width: 992px) {
-  .courses {
+  .perks {
     padding: 25px 0;
   }
 }
 
-.courses-bg {
+.perks-bg {
   position: absolute;
   width: 100%;
   top: 0;
@@ -758,59 +758,57 @@ header {
 }
 
 @media (max-width: 768px) {
-  .courses-bg {
+  .perks-bg {
     display: none;
   }
 }
 
-.courses-bg img {
+.perks-bg img {
   width: 100%;
 }
 
-.courses-wrap {
+.perks-wrap {
   display: flex;
   flex-wrap: wrap;
 }
 
 @media (max-width: 768px) {
-  .courses-wrap {
+  .perks-wrap {
     margin: 30px 0 0;
   }
 }
 
-.courses-element {
+.perks-element {
   margin: 20px 0px;
 }
 
 
 
-.courses-block {
+.perks-block {
   background: #fff;
   text-align: center;
   width: 100%;
-  padding: 25px;
+  padding: 10px;
   -webkit-box-shadow: 0px 0px 27px -17px rgba(158, 158, 158, 0.75);
   box-shadow: 0px 0px 27px -17px rgba(158, 158, 158, 0.75);
 }
 
 @media (max-width: 992px) {
-  .courses-block {
+  .perks-block {
     padding: 33px 13px;
   }
 }
 
-.courses-block img {
-  width: 100%;
-  margin-bottom: 25px;
-}
+/* .perks-block img {
+} */
 
-.courses-block h6 {
+.perks-block h6 {
   font-size: 15px;
   letter-spacing: 2px;
 }
 
 @media (max-width: 992px) {
-  .courses-block p {
+  .perks-block p {
     font-size: 13px;
   }
 }
@@ -823,19 +821,19 @@ header {
   font-size: 13px;
 }
 
-.courses-high {
+.perks-high {
   text-align: center;
   background: #fff;
   padding: 36px 50px;
 }
 
-.courses-high h6 {
+.perks-high h6 {
   margin: 30px 0 10px;
   font-size: 22px;
   font-weight: 600;
 }
 
-.courses-icon {
+.perks-icon {
   padding: 26px 0;
   border-radius: 50%;
   width: 100px;
@@ -843,13 +841,13 @@ header {
   display: inline-block;
 }
 
-.courses-icon h2 {
+.perks-icon h2 {
   font-size: 45px;
   opacity: 0.2;
   margin: 0;
 }
 
-.courses-icon h2 span {
+.perks-icon h2 span {
   font-size: 22px;
   vertical-align: top;
   margin: 8px 0 0;
@@ -857,11 +855,11 @@ header {
   display: inline-block;
 }
 
-.courses-text {
+.perks-text {
   text-align: left;
 }
 
-.courses-text i {
+.perks-text i {
   display: inline-block;
   margin: 0 8px 0 0;
   background: #daffd3;
@@ -871,16 +869,16 @@ header {
   font-size: 12px;
 }
 
-.courses-text p {
+.perks-text p {
   display: inline-block;
 }
 
-.courses-btn_wrap {
+.perks-btn_wrap {
   float: none;
   margin-bottom: 20px;
 }
 
-.courses-block_middle {
+.perks-block_middle {
   position: relative;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -892,7 +890,7 @@ header {
 }
 
 @media (max-width: 768px) {
-  .courses-block_middle {
+  .perks-block_middle {
     margin: 25px 0;
     -webkit-transform: none;
     -ms-transform: none;
@@ -900,23 +898,23 @@ header {
   }
 }
 
-.courses-block_middle h2 {
+.perks-block_middle h2 {
   color: #fff;
   opacity: 1;
 }
 
-.courses-bottom_text {
+.perks-bottom_text {
   text-align: center;
   margin: 55px 0 0;
 }
 
 @media (max-width: 992px) {
-  .courses-bottom_text {
+  .perks-bottom_text {
     margin: 25px 0 0;
   }
 }
 
-.courses-bottom_text p {
+.perks-bottom_text p {
   color: #bbbdc6;
 }
 
@@ -944,7 +942,7 @@ header {
   }
 }
 
-.courses-bg02 {
+.perks-bg02 {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -952,14 +950,14 @@ header {
 }
 
 @media (max-width: 1200px) {
-  .courses-bg02 {
+  .perks-bg02 {
     bottom: 42%;
     width: 45%;
   }
 }
 
 @media (max-width: 1200px) {
-  .courses-bg02 {
+  .perks-bg02 {
     display: none;
   }
 }
@@ -1162,7 +1160,7 @@ footer {
   transform: rotateY(180deg);
 }
 
-.courses-bg_secong {
+.perks-bg_secong {
   position: absolute;
   width: 100%;
   top: -14%;

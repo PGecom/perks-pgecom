@@ -1,0 +1,12 @@
+# Example 1: Allow all bots to crawl this page
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /courses
+Allow: /faqs
+
+
+Disallow: /refund
+Disallow: /terms
+Disallow: /privacy
+

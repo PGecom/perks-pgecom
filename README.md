@@ -1,2 +1,2 @@
-# perks-pgecom
-Discounted software outthere
+# PG-ecom
+Landing Page of PG-ecom

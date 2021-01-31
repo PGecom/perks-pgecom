@@ -7,11 +7,25 @@
         "affiliate_url": "https://bit.ly/pg-sell-the-trends"
     },
     {
+        "platform_name": "Shopify",
+        "platform_description": "Try Shopify free and start a business or grow an existing one. Get more than ecommerce software with tools to manage every part of your business.",
+        "benefit_description": "Best Ecommerce platform",
+        "image_url": "images/shopify-logo.png",
+        "affiliate_url": "https://shopify.com"
+    },
+    {
         "platform_name": "CJ Dropshipping",
         "platform_description": "One stop dropshipping service. From product sourcing to rapid shipping we have it all. From product listing to product sourcing, our app can do it all within a few clicks",
         "benefit_description": "Reliable Suppliers",
         "image_url": "images/cj-dropshipping.png",
         "affiliate_url": "https://bit.ly/pg-cj-dropshipping"
+    },
+    {
+        "platform_name": "Hubspot",
+        "platform_description": "HubSpot offers a full platform of marketing, sales, customer service, and CRM software — plus the methodology, resources, and support ",
+        "benefit_description": "Best CRM for starter",
+        "image_url": "images/hubspot-logo.png",
+        "affiliate_url": "hubspot.com"
     },
     {
         "platform_name": "Canva",
@@ -26,6 +40,13 @@
         "benefit_description": "45 days free trial",
         "image_url": "images/vitals.jpg",
         "affiliate_url": "https://bit.ly/pg-vitals-app"
+    },
+    {
+        "platform_name": "Teachable",
+        "platform_description": "Create and sell online courses and coaching services with the best online business platform used by the entrepreneurs to sell $500m+ to over 18 million",
+        "benefit_description": "Highly recommended",
+        "image_url": "images/teachable-logo.png",
+        "affiliate_url": "https://teachable.com"
     },
     {
         "platform_name": "Click Funnels",

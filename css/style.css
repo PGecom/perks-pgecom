@@ -799,8 +799,9 @@ header {
   }
 }
 
-/* .perks-block img {
-} */
+.perks-block img {
+  width: 225px;
+}
 
 .perks-block h6 {
   font-size: 15px;

@@ -3,7 +3,7 @@
         "platform_name": "Sell the trends",
         "platform_description": "We show you thousands of hot & trending products to add to your store and ship directly to your customers - all in only a few clicks!",
         "benefit_description": "10% OFF",
-        "image_url": "images/sellthetrends.png",
+        "image_url": "images/sellthetrends.jpg",
         "affiliate_url": "https://bit.ly/pg-sell-the-trends"
     },
     {
@@ -24,14 +24,14 @@
         "platform_name": "Vitals",
         "platform_description": "VITALS | 40+ apps in one. by VITALS. Reviews, Currency Conversion, Upsells, Replays & many more",
         "benefit_description": "45 days free trial",
-        "image_url": "images/vitals.png",
+        "image_url": "images/vitals.jpg",
         "affiliate_url": "https://bit.ly/pg-vitals-app"
     },
     {
         "platform_name": "Click Funnels",
         "platform_description": "ClickFunnels Gives You EVERYTHING You Need To Market, Sell, and Deliver Your Products and Services Online! Without having to hire or rely on a tech team!",
         "benefit_description": "Build amazing funnels",
-        "image_url": "images/clickfunnels.png",
+        "image_url": "images/clickfunnels.jpg",
         "affiliate_url": "https://www.clickfunnels.com/"
     },
     {

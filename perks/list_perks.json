@@ -32,7 +32,7 @@
         "platform_description": "Create beautiful designs with your team. Use Canva's drag-and-drop feature and layouts to design, share and print business cards, logos, and presentations",
         "benefit_description": "Unlock your imagination",
         "image_url": "images/canva.png",
-        "affiliate_url": "https://www.canva.com/"
+        "affiliate_url": "https://partner.canva.com/c/2660163/647168/10068"
     },
     {
         "platform_name": "Vitals",
@@ -82,5 +82,12 @@
         "benefit_description": "Highly Recommended",
         "image_url": "images/envato-element.png",
         "affiliate_url": "https://elements.envato.com/"
+    },
+    {
+        "platform_name": "Smile IO",
+        "platform_description": "Increase retention and boost customer engagement with an easy to use loyalty program built for small businesses.",
+        "benefit_description": "Highly Recommended",
+        "image_url": "images/smile-io.png",
+        "affiliate_url": "https://smile.io/"
     }
 ]

@@ -63,6 +63,8 @@
       async
       src="https://www.googletagmanager.com/gtag/js?id=AW-699508611"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
     <script src="./templatesCompiled.js"></script>
     <script src="./partialsCompiled.js"></script>
@@ -70,21 +72,35 @@
     <script>
       // compile the template
       const container = document.querySelector("body");
+      const client = contentful.createClient({
+        space: "uxvf16b9r1b4",
+        accessToken: "o7uWlKR7V52YcUBvYtlE_9XTtWlHE5TcS1MXdMMDSX8",
+      });
 
       window.onload = function () {
-        fetch("./perks/list_perks.json")
-          .then((res) => res.json())
-          .then((data) => {
-            // execute the compiled template and print the output to the console
-            // execute the compiled template and print the output to the console
+        client
+          .getEntries({
+            content_type: "perks",
+          })
+          .then((entries) => {
+            const perks = entries.items.map((perk) => {
+              return {
+                ...perk.fields,
+              };
+            });
+
             const context = {
               isPageHome: true,
-              list_perks: data
+              list_perks: perks,
             };
             const header = Handlebars.templates.home(context);
             container.innerHTML = header;
+
+
           })
-          .catch((error) => console.log("Error occurs: ", error));
+          .catch((error) => {
+            console.log("Entries: ", error);
+          });
       };
     </script>
     <script>

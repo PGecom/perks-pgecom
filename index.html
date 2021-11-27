@@ -32,6 +32,14 @@
     <link rel="stylesheet" href="./css/circular-std.css" />
     <!-- Style CSS -->
     <link rel="stylesheet" href="./css/style.css" />
+
+    <style>
+
+      img {
+        /* width: 50px; */
+        /* height: 150px;; */
+      }
+    </style>
   </head>
   <body>
     <script src="js/jquery-3.4.1.min.js"></script>
@@ -85,6 +93,7 @@
             const perks = entries.items.map((perk) => {
               return {
                 ...perk.fields,
+                businessLogo:`https:${perk?.fields?.businessLogo?.fields?.file?.url}`
               };
             });
 
